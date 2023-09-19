@@ -1,3 +1,4 @@
+
 <?php
 /**
  * The main template file.
@@ -11,24 +12,18 @@
  *
  * @package Astra
  * @since 1.0.0
- */
-
-
-
-<nav class="site-navigation">
-
-    /*<!--  liens de menu ici -->*/
-
-</nav>
-</div>
-
-  
-
-<body>
-    <h1 class="Titre">BOISSONS ENERGITIQUE 100% NATURELLE</h1>
-</body>
-
-
-
-
+ * 
+ * 
+ * get_header(); ?>
+ * 
+ * <body class="home">
+ *   <div class="navbar">
+ *      <div id="custom-logo">
+ *          <a ></a>  
+ *      </div>    
+ *  </div>
+ * </body>
+ * 
+ * 
+ * 
 

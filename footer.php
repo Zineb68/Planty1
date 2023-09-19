@@ -15,12 +15,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 ?>
+
 <?php astra_content_bottom(); ?>
 	</div> <!-- ast-container -->
 
-    <p>hello</p>
-    
 	</div><!-- #content -->
+
+
 <?php 
 	astra_content_after();
 		
@@ -32,8 +33,18 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 	</div><!-- #page -->
 <?php 
-	astra_body_bottom();    
-	wp_footer(); 
+	astra_body_bottom(); 
+	   
+	 /* wp_footer(); */
 ?>
+
+
+<footer class="footer">
+	<div class="Mentions légales">
+		<p><a href="#">Mentions légales</a></p>
+	</div>
+</footer>
+
+
 	</body>
 </html>
