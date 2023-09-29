@@ -12,18 +12,16 @@
  *
  * @package Astra
  * @since 1.0.0
- * 
- * 
- * get_header(); ?>
- * 
- * <body class="home">
- *   <div class="navbar">
- *      <div id="custom-logo">
- *          <a ></a>  
- *      </div>    
- *  </div>
- * </body>
- * 
- * 
- * 
+ */
+
+get_header(); ?>
+
+<body class="home">
+   <div class="navbar">
+      <div id="custom-logo">
+          <a href="#"></a> <!-- Vous devez spécifier une URL ici -->
+      </div>    
+  </div>
+</body>
+ 
 
