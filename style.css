@@ -48,7 +48,24 @@ Template: astra
     left: -58px; 
 }
 
+.custom-text1 { 
+    width: 78px;
+     height: 92px; 
+     top: 185px; 
+     left: 330px; 
+     position: absolute; 
+     text-align: center;
+     }
+     
+.text1-text { 
+    font-family: 'Syne'; 
+    font-weight: 800;
+     font-size: 38px; 
+     line-height: 45.6px;
+      color: #3B8E46; 
+    }
 
+/*
 .planty61  {
     width: 1307px;
     height: 950px;
@@ -71,13 +88,12 @@ Template: astra
     top: 2212px;
     left: -2px;
     background: #FFFFFF;
-
 }
+
 .Rectangle6 {
     width: 1440px;
     height: 415px;
     top: 928px;
-
 }
 
 .T {
@@ -92,19 +108,14 @@ Template: astra
     letter-spacing: 0em;
     text-align: center;
     text-emphasis-color: #000000;
-
 }
-
 
 .rectangle6 {
 
     width: 1440px;
     height: 415px;
     top: 928px;
-
 }
- 
-
 
 
 .Maskgroup {
@@ -114,6 +125,8 @@ Template: astra
     left: -2px;
     background: #FFFFFF;
 }
+
+*/
 
 
 /* Personnalisation du footer */

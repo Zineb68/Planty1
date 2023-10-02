@@ -19,11 +19,14 @@ get_header(); ?>
 <body class="home">
    <div class="navbar">
       <div id="custom-logo">
-          <a href="#"></a> <!-- Vous devez spécifier une URL ici -->
+          <a href="#"></a> 
       </div>    
-  </div>
+      
+    <div class="custom-text1">
+        <p class="text1-text">BOISSON ENERGISANTE 100% NATURELLE<br></p>
+    </div>
 
- 
+
 </body>
  
 
