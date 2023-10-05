@@ -21,12 +21,7 @@ get_header(); ?>
       <div id="custom-logo">
           <a href="#"></a> 
       </div>    
-      
-    <div class="custom-text1">
-        <p class="text1-text">BOISSON ENERGISANTE 100% NATURELLE<br></p>
-    </div>
-
-
+ 
 </body>
  
 

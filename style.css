@@ -48,6 +48,29 @@ Template: astra
     left: -58px; 
 }
 
+
+/* Styles pour la section1 */
+/*
+.section1 {
+    background-color: #F0F0F0; 
+    text-align: center; 
+}
+
+.container {
+    max-width: 1200px; /* Largeur maximale du contenu 
+    margin: 0 auto; 
+}
+
+h1 {
+    font-family: 'Syne'; 
+    font-weight: 800; 
+    font-size: 38px; 
+    line-height: 45.6px; /* Hauteur de ligne 
+    color: #3B8E46; 
+    
+}
+
+/*
 .custom-text1 { 
     width: 78px;
      height: 92px; 
@@ -127,6 +150,9 @@ Template: astra
 }
 
 */
+
+
+
 
 
 /* Personnalisation du footer */
