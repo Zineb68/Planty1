@@ -11,42 +11,36 @@
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
+    exit; // Exit if accessed directly.
 }
-
 ?>
 
 <?php astra_content_bottom(); ?>
-	</div> <!-- ast-container -->
 
-	</div><!-- #content -->
+    </div> <!-- ast-container -->
 
+</div><!-- #content -->
 
 <?php 
-	astra_content_after();
-		
-	astra_footer_before();
-		
-	astra_footer();
-		
-	astra_footer_after(); 
+astra_content_after();
+astra_footer_before();
+astra_footer();
+astra_footer_after(); 
 ?>
-	</div><!-- #page -->
+
+</div><!-- #page -->
+
 <?php 
-	astra_body_bottom(); 
-	   
-	 /* wp_footer(); test*/
+astra_body_bottom(); 
+wp_footer();
 ?>
-
-
-
 
 <footer class="footer">
-	<div class="Mentions légales">
-		<p><a href="#">Mentions légales</a></p>
-	</div>
+    <div class="Mentions-legales">
+        <p><a href="#">Mentions légales</a></p>
+    </div>
 </footer>
 
-
-	</body>
+</body>
 </html>
+
