@@ -17,11 +17,21 @@
 get_header(); ?>
 
 <body class="home">
+
    <div class="navbar">
       <div id="custom-logo">
           <a href="#"></a> 
       </div>    
- 
+    </div> 
+
+<div class="whiteboard">
+    <input type="number" name="number">
+</div>
+
+<div class="nous-
+
+contacter"></div>
+        
 </body>
  
 

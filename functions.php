@@ -23,3 +23,23 @@ function child_enqueue_styles() {
 }
 
 add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
+
+
+function custom_menu_item($items, $args) {
+    if (is_user_logged_in()) {
+        // Récupère les items de menu sous forme de tableau
+        $items_array = explode('</li>', $items);
+
+        // Calcul la position où insérer l'élément "Admin"
+        $middle_index = floor(count($items_array) / 2);
+
+        // Insère l'élément "Admin" à la position calculée
+        array_splice($items_array, $middle_index, 0, '<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="'.admin_url().'">Admin</a></li>');
+
+        // Convertit le tableau en chaîne de caractères HTML
+        $items = implode('</li>', $items_array) . '</li>';
+    }
+
+    return $items;
+}
+add_filter('wp_nav_menu_items', 'custom_menu_item', 10, 2);
