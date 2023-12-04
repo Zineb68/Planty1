@@ -18,7 +18,6 @@ Template: astra
 
 .home {
     background-color: #ECE2DA; 
-    /*width: 1440px; */
     height: 2910px; 
     top: 490px; 
     left: -71px; 
@@ -33,10 +32,6 @@ Template: astra
     background-color: #fff; 
     width: 1440px; 
     height: 80px; 
-    top: -1163px;
-   left: -71px 
-    
- 
 }
 
 
@@ -50,6 +45,12 @@ Template: astra
     left: -58px; 
 }
 
+
+#menu-item-743 {
+    background-color:#DC9F96;
+    margin-left: 20px;
+    
+}
 
 #wpforms-617 label {
     color: #000000 !important;
@@ -153,9 +154,7 @@ input[type="number"] {
 
 .footer {
     background-color: #FFFFFF;
-   /* width: 1440px;*/
     height: 60px;
-    /*top: -933px;*/
     text-align: center;
     padding-top: 25px;
     padding-bottom: 60px;
