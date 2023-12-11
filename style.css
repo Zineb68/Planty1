@@ -12,22 +12,17 @@ Template: astra
 
 
 
-
 /* Personnalisation de la page d'accueil */
 
-
 .home {
-    background-color: #ECE2DA; 
-    /*width: 1440px; */
+    background-color: #ECE2DA;  
     height: 2910px; 
     top: 490px; 
     left: -71px; 
 }
 
 
-
 /* Personnalisation de la Nav bar */ 
-
 
 .navbar {
     background-color: #fff; 
@@ -53,8 +48,7 @@ Template: astra
 
 #menu-item-743 {
     background-color:#DC9F96;
-    margin-left: 20px;
-    
+    margin-left: 20px;   
 }
 
 #wpforms-617 label {
@@ -139,7 +133,6 @@ input[type="number"] {
 #wpforms-2695-field_21 {
     border-radius: 7px;
 }
-
 
 
 #wpforms-submit-2695 {
