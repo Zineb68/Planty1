@@ -101,17 +101,16 @@ input[type="number"] {
 
 
 
-
 .wpforms-field-label {
     color: #FFFFFF !important;
 }
 
 .zayneb-margesdroite {
-    padding-right:30px !important;
+    padding-right:10px !important;
 }
 
-.zayneb-margesgauche{
-    padding-left: 30px !important;
+.zayneb-margesgauche {
+    padding-left: 10px !important;
 }
 
 
